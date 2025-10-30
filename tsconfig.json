@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    
+    //optional config
+    "strict":true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "useUnknownInCatchVariables": true,
+    "skipLibCheck": true,
+
+    //from where you will read the ts
+    "rootDir": "src",
+    //where ts will be compiled
+    "outDir": "dist"
+
+  },
+  "include": ["src"]
+}
