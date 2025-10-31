@@ -16,4 +16,5 @@ const user2 = {
     email: "hanuman@ram.com",
     createdAt: new Date()
 };
-//46:42
+const c1 = { something: 1 };
+const c2 = { likes: 2000, views: 10000, shares: 200, random: 5 };

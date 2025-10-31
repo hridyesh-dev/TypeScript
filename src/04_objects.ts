@@ -36,4 +36,15 @@ type User2={email?:string}
 
 //here it should be present either undefined or string it cant be absent
 type User3={email:string|undefined}
-//46:42
+
+// how to write indexes records etc
+//index signature
+type count = { [k:string] : number }
+
+//record
+type count1 = Record<"likes" | "views" | "shares" | "random",number>
+
+const c1:count = { something : 1 }
+
+const c2:count1 = {likes: 2000 , views:10000 , shares:200,random:5 }
+
