@@ -3,7 +3,7 @@
     interface is best for object shapes that we expect to 
     extend it supports declaration margin 
 
-    if i declare some interface and can redlare it with same name 
+    if i declare some interface and then I can redlare it with same name 
 
     types can be more general can be used for objects, unions and intersections , functions etc 
     this can not be reopened no margin 
